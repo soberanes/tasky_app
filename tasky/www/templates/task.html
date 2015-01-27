@@ -1,0 +1,15 @@
+<ion-view view-title="Task">
+  <ion-content>
+    <h1 class="task_title">{{task.title}}</h1>
+    <p class="task_details">
+    	<span class="tag_txt"><em>{{task.tag}}</em></span>
+    	<span class="divider"></span>
+    	<span class="date_txt"><em>{{task.creation_date}}</em></span>
+    </p>
+    <p class="status_icon">{{task.status}}</p>
+    <p class="task_description">{{task.description}}</p>
+    <button class="btn btn-danger">Eliminar</button>
+    <button class="btn btn-info">Editar</button>
+    <button class="btn btn-success">Completar</button>
+  </ion-content>
+</ion-view>

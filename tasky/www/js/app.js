@@ -65,6 +65,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'TaskCtrl'
       }
     }
+  })
+  .state('app.addTask', {
+    url: "/addTask",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/addTask.html",
+        controller: 'addTaskCtrl'
+      }
+    }
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/tasks');

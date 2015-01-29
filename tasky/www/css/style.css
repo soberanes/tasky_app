@@ -1,1 +1,48 @@
 /* Empty. Add your own CSS if you like */
+.task_title{
+	text-align: center;
+	font-size: 23px;
+	margin: 10px auto;
+	display: block;
+	line-height: 2;
+}
+.task_details{
+	padding: 10px;
+	margin: 0;
+}
+.tag_txt{
+	padding: 5px;
+color: #FFFFFF;
+background-color: #19776D;
+font-size: 14px;
+}
+.divider{
+	
+}
+.date_txt{
+	font-size: 14px;margin-left: 10px;
+}
+.status_icon{
+	padding: 10px;
+margin: 0;
+}
+.task_description{
+	padding: 10px;
+margin: 0;
+font-size: 16px;
+}
+.btn{
+	padding: 10px;
+	background-color: none;
+	color: #FFFFFF;
+	border: none;
+} 
+.btn-danger{
+background-color: rgb(255, 63, 63);	
+}
+.btn-info{
+	background-color: rgb(63, 175, 255);
+}
+.btn-success{
+	background-color: rgb(36, 182, 104);
+}

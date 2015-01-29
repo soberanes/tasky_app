@@ -8,8 +8,8 @@
     </p>
     <p class="status_icon">{{task.status}}</p>
     <p class="task_description">{{task.description}}</p>
-    <button class="btn btn-danger">Eliminar</button>
-    <button class="btn btn-info">Editar</button>
-    <button class="btn btn-success">Completar</button>
+    <a ng-click="deleteTask(task.task_id)" class="btn btn-danger">Eliminar</a>
+    <a ng-click="editTask(task.task_id)" class="btn btn-info">Editar</a>
+    <a ng-click="completeTask(task.task_id)" class="btn btn-success">Completar</a>
   </ion-content>
 </ion-view>
